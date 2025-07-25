@@ -1,0 +1,8 @@
+.env
+*__pycache__*
+*.db
+*.db-journal
+*.rdb
+db.sqlite3
+media/
+.mypy_cache/

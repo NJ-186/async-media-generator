@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+sqlmodel
+aiosqlite
+celery
+alembic
+sqlalchemy
+greenlet
+redis
+black
+isort
+pre-commit
