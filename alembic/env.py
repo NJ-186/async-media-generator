@@ -22,7 +22,7 @@ from app.models.job import Job
 
 target_metadata = Job.metadata
 
-config.set_main_option("sqlalchemy.url", os.environ["SYNC_DB_URL"])
+config.set_main_option("sqlalchemy.url", os.getenv("SYNC_DB_URL", "sqlite:///./app.db"))
 
 
 def run_migrations_offline() -> None:
