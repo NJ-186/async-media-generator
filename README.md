@@ -144,7 +144,7 @@ Fetches the status and result of a submitted job.
 **Successful Response**
 ```json
 {
-  "job_id": "abc123",
+  "job_id": "bc2c32cf-9a77-4b36-9533-e50ac26d7632",
   "status": "completed",
   "result_url": "/media/bc2c32cf-9a77-4b36-9533-e50ac26d7632.png"
 }
