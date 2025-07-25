@@ -17,7 +17,7 @@ def generate_media(self, job_id: str):
 
     try:
         job = run_async(get_job(job_id))
-        # Uncomment the following line if you want to check retries.
+        # Uncomment the following line if you want to test retries.
         # raise Exception("Exception in code !!")
 
         if job:
